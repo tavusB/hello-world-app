@@ -7,7 +7,6 @@ variable "deployment_environment" {
 variable "deployment_endpoint" {
   type = "map"
   default = {
-    test  = "test.hello-world"
     dev  = "dev.hello-world"
     qa   = "qa.hello-world"
     prod = "hello-world"

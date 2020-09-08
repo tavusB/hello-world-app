@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
     bucket  = "tavus_bucket"
-    prefix  = "tools/hello-world"
+    prefix  = "stage/hello-world"
     project = "fuchi-287613"
   }
 }
