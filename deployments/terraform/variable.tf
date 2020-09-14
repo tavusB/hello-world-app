@@ -7,10 +7,10 @@ variable "deployment_environment" {
 variable "deployment_endpoint" {
   type = "map"
   default = {
-    dev  = "dev.hello-world"
-    qa   = "qa.hello-world"
-    prod = "hello-world"
-    stage = "stage.hello-world"
+    dev  = "dev.hello"
+    qa   = "qa.hello"
+    prod = "hello"
+    stage = "stage.hello"
   }
 }
 variable "google_domain_name" {
