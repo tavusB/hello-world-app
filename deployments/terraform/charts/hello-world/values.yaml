@@ -4,7 +4,7 @@
 replicaCount: 5
 image:
   repository: ${deployment_image}
-  tag: latest
+  tag: ${branchName}
   pullPolicy: IfNotPresent
 imagePullSecrets: []
 nameOverride: ""
