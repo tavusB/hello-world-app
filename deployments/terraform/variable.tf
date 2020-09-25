@@ -19,3 +19,6 @@ variable "google_domain_name" {
 output "application_endpoint" {
   value = "${lookup(var.deployment_endpoint, "${var.deployment_environment}")}.${var.google_domain_name}"
 }
+variable "release_version" {
+  default = "0.0.1"
+  }
